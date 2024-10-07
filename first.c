@@ -1,19 +1,17 @@
 #include<stdio.h>
+// create a program to calculate the area of a rectangle (by multiplying the length and width)
 int main(){
-   // A student name is Masud Rana and you have to store his data on varsity website.
+// Create integer variables
+int length = 7;
+int width = 5;
+int area;
 
-   // Variables
-   char Name = 'M';
-   int hisRoll = 202938;
-   int hisAge = 23;
-   float hisVarsityFee = 4250;
-   char hisVarsityGreat = 'A';
+// Calculate the area of a rectangle
+area = length * width;
 
-   // Values
-   printf("Character Value : %c \n", Name);
-   printf("integer Value : %d \n", hisRoll);
-   printf("integer Value too : %d \n", hisAge);
-   printf("Floating Number : %f \n", hisVarsityFee);
-   printf("Character Number : %c \n", hisVarsityGreat);
-   return 0;
-} 
+// Print the variables
+printf("Length is: %d\n", length);
+printf("Width is: %d\n", width);
+printf("Area of the rectangle is: %d", area);
+return 0;
+}
